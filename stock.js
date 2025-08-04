@@ -28,7 +28,7 @@ request ('https://cloud.iexapis.com/stable/stock/' + ticker + '/quote?token=pk_0
 
 
 // set Handlebars
-app.engine('handlebars', engine({ extname:'.handlebars', defaultlayout: "main"}));
+app.engine('handlebars', engine({ extname:'.handlebars', defaultLayout: "main"}));
 app.set('view engine', 'handlebars');
 
 const otherstuff = "hello there, this is otherstuff!";
